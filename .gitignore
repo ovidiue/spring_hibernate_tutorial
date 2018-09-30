@@ -12,3 +12,6 @@
 !h2*.jar
 *.war
 *.ear
+/do_not_commit
+data/
+do_not_commit
