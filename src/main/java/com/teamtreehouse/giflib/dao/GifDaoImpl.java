@@ -42,7 +42,7 @@ public class GifDaoImpl implements GifDao {
     @Override
     public Gif findById(Long id) {
         Session session = sessionFactory.openSession();
-        Gif gif = session.get(Gif.class,id);
+        Gif gif = session.get(Gif.class, id);
         session.close();
         return gif;
     }
